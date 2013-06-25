@@ -1,0 +1,19 @@
+!!!
+<html lang='en'>
+%head
+  %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-Type"}
+  %title
+    -wp_title()
+  %link{:href => '<?php echo get_stylesheet_uri(); ?>', :type => "text/css", :rel => "stylesheet"}
+  -wp_head()
+  %script{:src => "<?php bloginfo( 'template_directory' ); ?>/scripts/compiled.min.js"}
+    
+<body>
+
+%nav
+  %ul
+    %li
+      %a{:href => "<?php echo home_url(); ?>"} Home
+    %li Another Link
+  %br
+  %br

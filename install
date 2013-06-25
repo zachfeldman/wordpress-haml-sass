@@ -1,0 +1,6 @@
+cd /tmp
+git clone https://github.com/alandipert/fswatch
+cd fswatch/
+make
+cp fswatch /usr/local/bin/fswatch
+echo "Watcher Installed"

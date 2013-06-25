@@ -1,0 +1,2 @@
+echo "Watching App For Changes"
+fswatch app "sh lib/make.sh"

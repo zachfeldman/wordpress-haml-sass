@@ -1,0 +1,8 @@
+-if( have_posts() )
+  -while( have_posts() )
+    -the_post()
+    -the_time("F jS, Y")
+    -the_title()
+    -the_author()
+-else
+  Sorry, no posts were found.
