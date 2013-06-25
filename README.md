@@ -53,3 +53,5 @@ Ian Jennings (Watcher Implementation) [@sw1tch](https://twitter.com/sw1tch)
 ### Props
 
 Props to [@contently](http://contently.com) for letting us build awesome stuff like this while developing the digital version of our print magazine, [The Content Strategist](http://contently.com/strategist/)!
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/fd135d42e687d99d4edfc47a5261e934 "githalytics.com")](http://githalytics.com/zachfeldman/wordpress-haml-sass)
