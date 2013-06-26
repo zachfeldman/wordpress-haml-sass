@@ -1,5 +1,5 @@
 # wordpress-haml-sass
-## Easy WordPress theme development in HAML, PHP, & SASS with closure compiled JavaScript
+## Easy WordPress theme development in HAML, PHP, CoffeeScript, & SASS with closure compiled JavaScript
 
 The purpose of this project is to string together a ton of great tools to make creating a WordPress theme a little more 2013 and a little less 2004, without any fancy plugins. Just a simple, compiled WordPress theme from HAML, PHP, SASS, and JavaScript.
 
@@ -7,7 +7,7 @@ Views like index.php, single.php, header.php, footer.php, etc are all created us
 
 Styles are compiled from SASS files found in the `app/assets/stylesheets` directory.
 
-JavaScript inside of the `app/assets/scripts_to_compile` directory will be compiled into one manifest file, with jQuery placed before anything else. Scripts inside of `app/assets/scripts_uncompiled` will just be copied to the `/scripts` folder in the theme.
+JavaScript and CoffeeScript files inside of the `app/assets/scripts_to_compile` directory will be compiled into one manifest file, with jQuery placed before anything else. Scripts inside of `app/assets/scripts_uncompiled` will just be copied to the `/scripts` folder in the theme.
 
 All other assets are copied from their respective assets folder to the appropriate theme directory. 
 
@@ -38,20 +38,24 @@ You may want to symbolic link the /theme directory to wherever your serving your
 `sudo ln -s ~/dev/wordpress-haml-sass/theme/ /Applications/MAMP/htdocs/wp-content/themes/theme`
 
 
-## Contributions, Authors, Props
+## Contributions, Authors, Contributors, Props
 
 ### Contributions
 
 Are happily accepted if they're in the general spirit of the project. Just send a pull request. Also file an issue if you notice any weirdness!
 
-### Authors
+### Author
 
 Zach Feldman [@zachfeldman](https://twitter.com/zachfeldman)
 
+### Contributors
+
 Ian Jennings (Watcher Implementation) [@sw1tch](https://twitter.com/sw1tch)
+
+Joc O'Connor (CoffeeScript Implementation) [@jococo](https://github.com/jococo)
 
 ### Props
 
-Props to [@contently](http://contently.com) for letting us build awesome stuff like this while developing the digital version of our print magazine, [The Content Strategist](http://contently.com/strategist/)!
+Props to [@contently](http://contently.com) for letting me build awesome stuff like this while developing the digital version of our print magazine, [The Content Strategist](http://contently.com/strategist/)!
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/fd135d42e687d99d4edfc47a5261e934 "githalytics.com")](http://githalytics.com/zachfeldman/wordpress-haml-sass)
